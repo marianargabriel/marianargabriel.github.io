@@ -1,0 +1,42 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    padding: 10px 0px;
+}
+
+.img-logo {
+    margin-left: 5px;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active {
+    background-color: #FE02AA !important;
+    border-color: #FE02AA !important;
+    color: #ffffff;
+}
+
+.btn-outline-primary {
+    color: #FE02AA;
+    border-color: #FE02AA;
+    border-width: 2px;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.title {
+    color: #262E33;
+    padding-bottom: 20px;
+}
+
+.container {
+    padding: 30px 0px;
+    --bs-gutter-x: 0 !important;
+}
+
+#avatar {
+    width: 250px !important;
+    height: 250px !important;
+}
