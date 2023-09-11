@@ -130,3 +130,32 @@ body {
     border-color: #FE02AA !important;
 }
 
+.title-work {
+    margin-top: 60px;
+}
+
+.text-work {
+    margin: 20px 0px;
+}
+
+#separator {
+    color: #FE02AA;
+}
+
+.title-companies {
+    margin-top: 60px;
+}
+
+.title-collaborations {
+    margin-top: 60px;
+}
+
+.text-collaborations {
+    margin: 20px 0px;
+    margin-bottom: 50px;
+}
+
+.icon-conversation {
+    height: 20px;
+    width: 20px;
+}
