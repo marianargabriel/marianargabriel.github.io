@@ -11,6 +11,8 @@
 
     <link rel="shortcut icon" href="ASSETS/logos/logo.png" />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
     <title>Mariana Gabriel</title>
 </head>
 
@@ -20,7 +22,7 @@
             <a class="navbar-brand" href="index.html">
                 <img class="img-logo" src="ASSETS/logos/logo.png" alt="Mariana Gabriel" width="70" height="64">
             </a>
-            <button type="button" class="btn btn-outline-primary">Talk to Me</button>
+            <button id="btn-talk" type="button" class="btn btn-outline-primary">Talk to Me</button>
         </div>
     </nav>
 
@@ -73,7 +75,7 @@
                     <img id="tools-icons" src="ASSETS/icons/developer.svg" alt="Developer">
                 </span>
                 <div class="fst-content">
-                    <h5 class="title-tools"><b>Designer</b></h5>
+                    <h5 class="title-tools"><b>Developer</b></h5>
                     <p class="descriptions-tools">I'm a fullstack developer, but my heart belongs to frontend.</p>
                 </div>
                 <div class="snd-content">
@@ -103,9 +105,6 @@
                     <p>Apps Development<br>Web Development<br>Web Maintenance and Restructuring<br>Social Media
                         Management<br>Design</p>
                 </div>
-                <div class="fth-content">
-                    <button id="btn-interested" type="button" class="btn btn-outline-primary">I'm Interested</button>
-                </div>
             </div>
         </div>
     </div>
@@ -121,10 +120,35 @@
         <h5 class="title-collaborations"><b>Interested in collaborating with me?</b></h5>
         <p class="text-collaborations">I'm always available to provide my services or partnership opportunities.</p>
 
-        <button id="btn-conversation" type="button" class="btn btn-outline-primary">
-            <img id="icon-conversation" src="ASSETS/icons/conversation.svg" alt="Freelancer">
-            Start a Conversation</button>
+        <button id="btn-conversation" type="button" class="btn btn-primary">
+            <img id="icon-conversation" src="ASSETS/icons/conversation.svg" alt="Freelancer">  Start a Conversation</button>
     </div>
+
+    <footer>
+        <div class="container-fluid text-center">
+            <div class="col">
+                <h5 class="text-footer">Living, learning & leveling up<br>one day at a time.</h5>
+                <button id="btn-github" type="button" class="btn btn-primary">
+                    <i class="bi bi-github"></i>
+                </button>
+                <button id="btn-instagram" type="button" class="btn btn-primary">
+                    <i class="bi bi-instagram"></i>
+                </button>
+                <button id="btn-linkedin" type="button" class="btn btn-primary">
+                    <i class="bi bi-linkedin"></i>
+                </button>
+                <button id="btn-mail" type="button" class="btn btn-primary">
+                    <i class="bi bi-envelope"></i>
+                </button><br>
+                <div class="copyright">
+                    <p class="text-copy">Desenvolvido por <a style="color: #FFD5DC;" href="url">Mariana
+                            Gabriel</a></p>
+                    <p class="text-copy">&copy; Mariana Gabriel - 2023. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="JS/bootstrap.bundle.min.js"></script>
     <script src="JS/main.js"></script>
 </body>
