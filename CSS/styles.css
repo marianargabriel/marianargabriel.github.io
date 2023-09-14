@@ -180,6 +180,10 @@ body {
     color: #FE02AA;
 }
 
+.link-socialmedia {
+    text-decoration: none;
+}
+
 .bi {
     font-size: 20px;
 }
@@ -189,4 +193,33 @@ body {
     font-size: 14px;
     margin-top: 50px;
     margin-bottom: -190px;
+}
+
+.form-container {
+    padding: 20px 570px;
+}
+
+.title-contact {
+    color:#141C3A;
+    margin: 50px 0px;
+}
+
+.g-2 {
+    margin-bottom: 20px;
+    border-color: #747A87;
+    color: #747A87;
+}
+
+#btn-submit {
+    border: 2px solid #FFD5DC;
+    margin: 50px 10px;
+    border-radius: 50px;
+    background-color: #FE02AA;
+    color: #ffffff;
+}
+
+#btn-submit:active,
+#btn-submit:hover {
+    background-color: #FFD5DC;
+    color: #FE02AA;
 }
