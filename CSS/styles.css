@@ -56,7 +56,7 @@ body {
 @media screen and (max-width: 991px) {
     #grid-rightBorder {
         border-right: none !important;
-        border-bottom: 1px solid #FE02AA;
+        border-bottom: 1px solid #FFD5DC;
         margin-bottom: 60px;
     }
 }
@@ -88,7 +88,7 @@ body {
 }
 
 #grid-rightBorder {
-    border-right: 1px solid #FE02AA;
+    border-right: 1px solid #FFD5DC;
 }
 
 .circle {
