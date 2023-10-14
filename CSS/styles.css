@@ -28,7 +28,7 @@ body {
 }
 
 .title {
-    color: #141C3A;
+    color: #262E33;
     padding-bottom: 20px;
 }
 
@@ -108,7 +108,7 @@ body {
 
 .title-tools {
     margin: 25px 0px;
-    color: #141C3A;
+    color: #262E33;
 }
 
 .subtitle-tools {
@@ -124,7 +124,7 @@ body {
 
 .title-work {
     margin-top: 60px;
-    color: #141C3A;
+    color: #262E33;
 }
 
 .text-work {
@@ -137,12 +137,12 @@ body {
 
 .title-companies {
     margin-top: 60px;
-    color: #141C3A;
+    color: #262E33;
 }
 
 .title-collaborations {
     margin-top: 60px;
-    color: #141C3A;
+    color: #262E33;
 }
 
 .text-collaborations {
@@ -212,7 +212,7 @@ body {
 }
 
 .title-contact {
-    color: #141C3A;
+    color: #262E33;
     margin: 50px 0px;
 }
 
