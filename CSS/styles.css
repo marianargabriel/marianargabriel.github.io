@@ -178,6 +178,7 @@ body {
 .text-footer {
     margin-top: -30px;
     color: #fffff7;
+    font-size: 25px;
 }
 
 #btn-github,
