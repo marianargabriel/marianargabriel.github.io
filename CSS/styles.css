@@ -1,24 +1,20 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 *::-webkit-scrollbar {
     width: 12px;
-  }
-  
-  *::-webkit-scrollbar-track {
+}
+
+*::-webkit-scrollbar-track {
     background: #fffff7;
-  }
-  
-  *::-webkit-scrollbar-thumb {
+}
+
+*::-webkit-scrollbar-thumb {
     background: #FE02AA;
     border: 1px solid;
     border-color: #fffff7;
     border-radius: 5px;
-  }
-
-p {
-    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -277,6 +273,13 @@ p {
     align-items: center;
     display: flex;
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .card-project {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
 }
 
 .type-project {
