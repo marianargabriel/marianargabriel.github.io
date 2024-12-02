@@ -2,21 +2,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-*::-webkit-scrollbar {
-    width: 12px;
-}
-
-*::-webkit-scrollbar-track {
-    background: #ffffff;
-}
-
-*::-webkit-scrollbar-thumb {
-    background: #FE02AA;
-    border: 1px solid;
-    border-color: #ffffff;
-    border-radius: 5px;
-}
-
 .navbar {
     background-color: #ffffff !important;
     margin: 10px 10px;
